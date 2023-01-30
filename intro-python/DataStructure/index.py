@@ -142,5 +142,11 @@ kitties = {
 }
 # print(kitties)
 #dict Constructor
-human = dict(name="thomas")
-print(human)
+human = dict(name="thomas", age="20")
+# print(human)
+
+#boolean
+booleanV = True
+#boolean2 = false
+boolean2 = False
+# print(booleanV, boolean2)
