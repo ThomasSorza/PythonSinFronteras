@@ -37,4 +37,25 @@ def concatNames(names):
         allNames += name + ' ' #concatenating names
     return allNames
 
-print('Your String of names is: ' + concatNames(['John', 'thomas', 'Juan']))
+# print('Your String of names is: ' + concatNames(['John', 'thomas', 'Juan']))
+
+def myfunc(argument = 'this is an argument'):
+    print(argument)
+
+""" myfunc('thomas')
+myfunc() """
+
+def myfunc(list):
+    for i in list:
+        print(i)
+
+# myfunc(['programming', 'Python'])
+
+def contacNames(list):
+    i=""
+    for el in list:
+        # i = i + ' ' + el;
+        i += el;
+    return i
+
+print(concatNames(['Programming', 'Python']))
