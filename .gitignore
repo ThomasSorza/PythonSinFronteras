@@ -1,0 +1,45 @@
+
+# Ignore compiled object files
+*.o
+*.ko
+*.obj
+*.elf
+ 
+# Ignore generated files
+*.pyc
+*.class
+*.dll
+*.exe
+ 
+# Ignore log and backup files
+*.log
+*.bak
+*.swp
+*.cache
+ 
+# Ignore user-specific files
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+ 
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+ehthumbs.ini
+Desktop.ini
+
+# Ignore Node.js dependencies
+node_modules/
+  
+# Ignore .env files containing sensitive information
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore any other file extensions that you want to ignore
+You can add any other file extensions that you want to ignore to the end of this file, each on a new line starting with an asterisk (`*`).
