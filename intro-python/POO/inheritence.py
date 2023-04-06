@@ -5,11 +5,17 @@ class Animal:
     def greeting(self):
         print('Hello I am a ', self.type, ' and my name is ', self.name)
 
-class Cat(Animal):
+class Cat(Animal): #using super instance
     type = 'cat'
+    def __init__(self, name, sound):
+        super().__init__(name, sound)
+        print('This is a extended Cat.')
 
-class Dog(Animal):
-    type = 'dog'    
+class Dog(Animal): #using father class
+    type = 'dog'
+    def __init__(self, name, sound):
+        Animal.__init__(self ,name, sound)
+        print('This is a dog extended, using class Animal.')  
 
 class Bird(Animal):
     type = 'bird'
