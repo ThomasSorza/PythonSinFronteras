@@ -1,4 +1,5 @@
-import module
+""" import module """
+import module as xs
 
-print(module.mascots) #here we can use the functions of the imported module
-module.hi('Thomas')
+print(xs.mascots) #here we can use the functions of the imported module
+xs.hi('Thomas')
