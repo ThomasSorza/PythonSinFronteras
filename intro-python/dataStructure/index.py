@@ -147,6 +147,6 @@ human = dict(name="thomas", age="20")
 
 #boolean
 booleanV = True
-#boolean2 = false
+#boolean2 = False
 boolean2 = False
 # print(booleanV, boolean2)
