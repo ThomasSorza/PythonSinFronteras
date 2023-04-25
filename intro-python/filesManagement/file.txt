@@ -1,8 +1,0 @@
-hello, this is a File with content inside it :D
-
-This is a second line.
-
-
-this is a third line.
-
-Bye, you reached the final line.
